@@ -1,6 +1,6 @@
-function chifre(nombre){
+function carré(nombre){
     return nombre**2;
 }
-console.log(chifre(5));
+console.log(carré(5));
 let num= prompt ("Saisir un nombre:");
-alert (chifre(num));
+alert (carré(num));
